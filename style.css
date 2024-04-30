@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%)
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    margin: auto;
+    background-color: #fff;
+    padding-top: 25px;
+    border-radius: 9px;
+    
+} 
+img{
+    border-radius: 9px;
+    
+}
+
+.preparo{
+    width: 590px;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    padding-left: 15px;
+    font-weight: 700;
+}
+.preparation{
+    text-align: justify;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+
+.ingredientes, .instructions{
+    padding: 22px;
+    
+}
+span{
+    font-weight: 600;
+    color: hsl(30, 10%, 34%)
+}
+li{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+.pink_color::marker{
+    color:hsl(332, 51%, 32%) ;
+}
+
+.brow_color::marker{
+    color: hsl(14, 45%, 36%)
+    ;
+}
+
+ol >::marker{
+    font-weight: 600;
+}
+.tabela{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.a1, .a2{
+    width: 100%;
+}
+
+.table > p{
+    float: left;
+    padding-left: 30px;
+}
+
+.table > h4{
+    width: 50%;
+    float: right;
+    color: hsl(14, 45%, 36%);
+   
+    
+}
+hr{
+    width: 100%;
+}
+
+.tabela{
+    margin-bottom: 40px;
+}
+
+.serif{
+    font-family: "Young Serif", serif;
+}
+
+
+h1{
+    color: hsl(24, 5%, 18%);
+}
+
+
+
